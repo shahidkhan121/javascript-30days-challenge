@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 300px auto;
+    box-shadow: 7px 14px 79px 13px rgba(0,0,0,0.75);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transition: all 3s ease-in-out;
+
+}
+.box span{
+    position: absolute;
+    top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+#visible{
+    display: none;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
